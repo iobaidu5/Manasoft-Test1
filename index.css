@@ -178,7 +178,8 @@ form label {
 }
 
 .signin {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
     font-size: 11px;
 }
 
@@ -276,8 +277,17 @@ form label {
       
     
     .row2{
-        width: 15rem;
-        height: 15rem;
+        width: 10rem;
+        height: 10rem;
+        background-color: #E74C3C;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .row2{
+        width: 5rem;
+        height: 5rem;
         background-color: #E74C3C;
         margin: auto;
     }
